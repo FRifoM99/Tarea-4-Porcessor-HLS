@@ -21,6 +21,11 @@ Contiene los scripts de MATLAB utilizados para la verificación y pruebas funcio
 * **`test_processing.m`**: Script principal. Implementa las funciones de escritura y lectura de vectores vía UART, lectura de resultados (Distancia Euclidiana y Producto Punto) y comparación automática con referencias de software para verificar la funcionalidad.
 * Validación del formato esperado en los **displays de 7 segmentos** de la tarjeta Nexys A7 (formato Hexadecimal).
 
+> **Validación de Resultados:**
+> A continuación se muestra una captura de la ejecución del script, verificando la comunicación UART y la exactitud de los cálculos del coprocesador frente a la referencia de software:
+>
+> ![Salida de consola de MATLAB verificando resultados](Matlab/matlab_output.png)
+
 ### `Vivado/`
 Contiene los archivos necesarios para la implementación física del sistema en la FPGA:
 * **Constraints/**: Archivos `.xdc` con las restricciones físicas y de tiempo para el diseño.
