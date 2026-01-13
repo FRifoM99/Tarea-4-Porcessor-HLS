@@ -24,7 +24,7 @@ Contiene los scripts de MATLAB utilizados para la verificación y pruebas funcio
 > **Validación de Resultados:**
 > A continuación se muestra una captura de la ejecución del script, verificando la comunicación UART y la exactitud de los cálculos del coprocesador frente a la referencia de software:
 >
-> ![Salida de consola de MATLAB verificando resultados](Matlab/matlab_output.jpg)
+> ![Salida de consola de MATLAB verificando resultados](Matlab/matlab_output.jpg) 
 
 ### `Vivado/`
 Contiene los archivos necesarios para la implementación física del sistema en la FPGA:
